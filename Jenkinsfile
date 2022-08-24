@@ -4,7 +4,7 @@ pipeline {
     stage(‘Build’) {
 	steps {
 		sh "rm -rf nginx"
-        sh "git clone https://github.com/petejades/nginx.git"
+        sh "git clone https://github.com/lejumoh/nginx.git"
 	}
 	}
 	stage (‘Test’) {
