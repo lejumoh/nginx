@@ -8,7 +8,7 @@ sudo amazon-linux-extras install docker
 ### Install Docker
 sudo yum install docker
 
-### Start Docker Service
+### Start Docker Services
 sudo service docker start
 
 ### Give docker permissions
